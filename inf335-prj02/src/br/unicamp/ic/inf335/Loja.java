@@ -7,7 +7,7 @@ public class Loja {
 	public static void main(String[] args) {
 		ArrayList<Produto> produtos = new ArrayList<Produto>();
 		
-		// Novo Comentário
+		// Novo Comentário - INF 335
 		Produto prod = new Produto("Livro 1",100);
 		produtos.add(prod);
 		prod = new Produto("Sapato ",150);

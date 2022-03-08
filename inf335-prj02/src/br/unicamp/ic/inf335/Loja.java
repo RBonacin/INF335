@@ -13,6 +13,10 @@ public class Loja {
 		prod = new Produto("Sapato ",150);
 		produtos.add(prod);
 		
+   		prod = new Produto("Prod Teste",250);
+		produtos.add(prod);
+
+		
 		for (int i=0; i<produtos.size(); i++) {
 			System.out.println("Nome do Produto = " + produtos.get(i).getNome()
 					+ " - Valor = " + produtos.get(i).getValor());

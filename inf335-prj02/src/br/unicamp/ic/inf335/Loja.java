@@ -16,6 +16,9 @@ public class Loja {
 		
    		prod = new Produto("Prod Teste",250);
 		produtos.add(prod);
+		
+		prod = new Produto("Prod Teste2",2050);
+		produtos.add(prod);
 
 		
 		for (int i=0; i<produtos.size(); i++) {

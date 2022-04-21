@@ -8,7 +8,7 @@ public class Loja {
 		ArrayList<Produto> produtos = new ArrayList<Produto>();
 		
 		// Novo Comentário - INF 335
-		// Mais um comentário 
+		// Mais um comentário - INF 335
 		Produto prod = new Produto("Livro 1",100);
 		produtos.add(prod);
 		prod = new Produto("Sapato ",150);
